@@ -22,8 +22,15 @@ export DISCORD_BOT_TOKEN="YOUR_BOT_TOKEN"
 ```
 python sluff.py
 ```
-
+# notes
+- You need to setup your dicord bot in the [Discord Developer Portal](https://discord.com/developers/applications)
+- In `OAuth2 URL Generator` pick `bot` and `applications.commands`.
+- give the bot the following privs:
+    - connect
+    - speak
+    - Send Messages
+- You can also just give the bot administrator (not recommended)
    
-
+> dm me if you need any help :)
 
 
