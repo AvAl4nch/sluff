@@ -5,8 +5,8 @@
 
 
 # info
-This is a simple python bot that you need to self-host.\n
-this bot can run any video from Youtube in a vc.
+- This is a simple python bot that you need to self-host.
+- this bot can run any video from Youtube in a vc.
 
 # setup
 1.  install the packages.
