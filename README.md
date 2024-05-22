@@ -1,4 +1,3 @@
-![Alt text](./logo.png)
-<img src="./logo.png" alt="logo" width="400"/>
+<img src="./logo.png" alt="logo" width="600"/>
 
 # Sluff
