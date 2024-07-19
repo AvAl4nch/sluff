@@ -1,62 +1,82 @@
+Here's a revised version of your README page for the Python YouTube Discord bot:
+
+---
+
 # Sluff
+
 <div style="text-align: center;">
   <img src="./logo.png" alt="logo" width="400"/>
 </div>
 
+## Overview
 
-# info
-- This is a simple python bot that you need to self-host.
-- this bot can run any video from Youtube in a vc.
+Sluff is a Python-based Discord bot that allows you to play YouTube videos in a voice channel. This bot needs to be self-hosted.
 
-# setup
-Method 1 
-1.  install the packages.
-```
-pip install discord yt-dlp
-```
-2. set the `DISCORD_BOT_TOKEN` environment variable.
-lunux:
-```
-export DISCORD_BOT_TOKEN="YOUR_BOT_TOKEN"
-```
-3. run sluff
-```
-python sluff.py
-```
+## Features
 
-Method 2  Docker
-1. Pull the docker image.
-```
-docker pull aval4nch/sluff
-```
-   
-2. run the docker image.
-```
-docker run -d --name sluff -e DISCORD_BOT_TOKEN=<your_bot_token> aval4nch/sluff
-```
+- Play any YouTube video directly in a Discord voice channel.
 
-Method 3 Docker compose
+## Setup
 
-1. Create a `.env` file with your discord bot toket.
-```
-echo "DISCORD_BOT_TOKEN=<your_bot_token>" > .env
-```
-2. Run the container.
-```
-docker-compose up -d
-```
+### Method 1: Manual Installation
 
+1. **Install Required Packages:**
+   ```bash
+   pip install discord yt-dlp
+   ```
 
+2. **Set the `DISCORD_BOT_TOKEN` Environment Variable:**
 
-# notes
-- You need to setup your dicord bot in the [Discord Developer Portal](https://discord.com/developers/applications)
-- In `OAuth2 URL Generator` pick `bot` and `applications.commands`.
-- give the bot the following privs:
-    - connect
-    - speak
+   On Linux:
+   ```bash
+   export DISCORD_BOT_TOKEN="YOUR_BOT_TOKEN"
+   ```
+
+3. **Run Sluff:**
+   ```bash
+   python sluff.py
+   ```
+
+### Method 2: Using Docker
+
+1. **Pull the Docker Image:**
+   ```bash
+   docker pull aval4nch/sluff
+   ```
+
+2. **Run the Docker Container:**
+   ```bash
+   docker run -d --name sluff -e DISCORD_BOT_TOKEN=<your_bot_token> aval4nch/sluff
+   ```
+
+### Method 3: Using Docker Compose
+
+1. **Create a `.env` File with Your Discord Bot Token:**
+   ```bash
+   echo "DISCORD_BOT_TOKEN=<your_bot_token>" > .env
+   ```
+
+2. **Run the Docker Container:**
+   ```bash
+   docker-compose up -d
+   ```
+
+## Configuration
+
+- **Set Up Your Discord Bot:**
+  - Go to the [Discord Developer Portal](https://discord.com/developers/applications).
+  - In the **OAuth2 URL Generator**, select `bot` and `applications.commands`.
+  - Grant the bot the following permissions:
+    - Connect
+    - Speak
     - Send Messages
-- You can also just give the bot administrator (not recommended)
-   
-> dm me if you need any help :)
 
+  - Alternatively, you can give the bot administrator permissions (not recommended for security reasons).
 
+## Support
+
+If you need any help, feel free to send me a direct message!
+
+---
+
+Feel free to adjust any details as needed!
