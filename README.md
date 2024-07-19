@@ -9,6 +9,7 @@
 - this bot can run any video from Youtube in a vc.
 
 # setup
+Method 1 
 1.  install the packages.
 ```
 pip install discord yt-dlp
@@ -22,6 +23,21 @@ export DISCORD_BOT_TOKEN="YOUR_BOT_TOKEN"
 ```
 python sluff.py
 ```
+
+Method 2  Docker
+1. Pull the docker image.
+```
+docker pull aval4nch/sluff
+```
+   
+2. run the docker image.
+```
+docker run -d --name sluff -e DISCORD_BOT_TOKEN=<your_bot_token> aval4nch/sluff
+```
+
+Method 3 Docker compose
+
+
 # notes
 - You need to setup your dicord bot in the [Discord Developer Portal](https://discord.com/developers/applications)
 - In `OAuth2 URL Generator` pick `bot` and `applications.commands`.
