@@ -1,7 +1,3 @@
-Here's a revised version of your README page for the Python YouTube Discord bot:
-
----
-
 # Sluff
 
 <div style="text-align: center;">
