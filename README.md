@@ -71,4 +71,4 @@ Sluff is a Python-based Discord bot that allows you to play YouTube videos in a 
 
 ## Support
 
-If you need any help, feel free to send me a direct message!
+If you need any help, feel free to dm me!
