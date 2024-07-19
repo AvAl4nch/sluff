@@ -37,6 +37,16 @@ docker run -d --name sluff -e DISCORD_BOT_TOKEN=<your_bot_token> aval4nch/sluff
 
 Method 3 Docker compose
 
+1. Create a `.env` file with your discord bot toket.
+```
+echo "DISCORD_BOT_TOKEN=<your_bot_token>" > .env
+```
+2. Run the container.
+```
+docker-compose up -d
+```
+
+
 
 # notes
 - You need to setup your dicord bot in the [Discord Developer Portal](https://discord.com/developers/applications)
