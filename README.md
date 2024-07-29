@@ -32,30 +32,7 @@ Sluff is a Python-based Discord bot that allows you to play YouTube videos in a 
    ```bash
    python sluff.py
    ```
-
-### Method 2: Using Docker
-
-1. **Pull the Docker Image:**
-   ```bash
-   docker pull aval4nch/sluff
-   ```
-
-2. **Run the Docker Container:**
-   ```bash
-   docker run -d --name sluff -e DISCORD_BOT_TOKEN=<your_bot_token> aval4nch/sluff
-   ```
-
-### Method 3: Using Docker Compose
-
-1. **Create a `.env` File with Your Discord Bot Token:**
-   ```bash
-   echo "DISCORD_BOT_TOKEN=<your_bot_token>" > .env
-   ```
-
-2. **Run the Docker Container:**
-   ```bash
-   docker-compose up -d
-   ```
+> you can run it with docker
 
 ## Configuration
 
